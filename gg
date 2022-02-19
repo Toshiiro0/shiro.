@@ -265,7 +265,7 @@ end)
 
 local farzadbigdick3 = AimingTab1:CreateSector("Misc", "right")
 local nigga1xd3 = farzadbigdick3:AddButton("Free Animations Pack",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/Toshiiro0/fakeanim/main/animationpack.lua'))() 
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Toshiiro0/fakeanim/main/animationpack.lua'))()
 end)
 
 farzadbigdick3:AddButton("No Jump Cooldown", function(value)
