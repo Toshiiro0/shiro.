@@ -215,6 +215,12 @@ farzadbigdick2:AddToggle('Show Silent Fov', false, function(L_75_arg0)
     Aiming.ShowFOV = L_75_arg0
 end)
 
+local farzadbigdick1 = AimingTab:CreateSector("Target", "left")
+farzadbigdick1:AddButton("Enable (C)", function(value)
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Toshiiro0/targetgod/main/target"))()
+end)
+
+
 local AimingTab1 = Window:CreateTab("Misc")
 
 local farzadbigdick1 = AimingTab1:CreateSector("Teleports", "left")
